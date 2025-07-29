@@ -7,15 +7,15 @@ public class DebugButtonTest : MonoBehaviour
     public GameObject button;
     void Update()
     {
-        DebugDrag();
+        //DebugDrag();
     }
     
     public void PrintDebug()
     {
         Debug.Log("You just pressed the button: " + gameObject.name);
 
-        button = gameObject;
-        Debug.Log("You just pressed the button: " + button.name);
+        // button = gameObject;
+        // Debug.Log("You just pressed the button: " + button.name);
     }
 
     public void DebugDrag()
