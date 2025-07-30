@@ -20,7 +20,7 @@ public class SO_BiomePalette : ScriptableObject
     public Color VegetationBColor;
     
     public Sprite GroundSprite;
-    public Color SkyColor;
+    public Color GroundColor;
     
     //--------------- could potentially store colors, particles and sprites for props
 }
