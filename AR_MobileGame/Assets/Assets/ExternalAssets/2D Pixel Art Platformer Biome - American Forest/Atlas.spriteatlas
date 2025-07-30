@@ -46,10 +46,22 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
+    - {fileID: 2800000, guid: 6fa67a97a4d07fe489a4df840954e553, type: 3}
+    - {fileID: 2800000, guid: 9c63514163eedfb49857af691644c42b, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
+    - 9c63514163eedfb49857af691644c42b: -958961507
+    - 9c63514163eedfb49857af691644c42b: 1319367056
+    - 9c63514163eedfb49857af691644c42b: 1827047936
+    - 9c63514163eedfb49857af691644c42b: -142133064
+    - 9c63514163eedfb49857af691644c42b: -1411774412
+    - 6fa67a97a4d07fe489a4df840954e553: -1865957910
+    - 6fa67a97a4d07fe489a4df840954e553: 1831941693
+    - 6fa67a97a4d07fe489a4df840954e553: 620357881
+    - 6fa67a97a4d07fe489a4df840954e553: -186739978
+    - 6fa67a97a4d07fe489a4df840954e553: 60021223
     - 5fe5454ec8605de43809133b020d1b69: -762311695
     - 5fe5454ec8605de43809133b020d1b69: -2145294881
     - 5fe5454ec8605de43809133b020d1b69: -1019068024
@@ -141,6 +153,16 @@ SpriteAtlas:
     - 5fe5454ec8605de43809133b020d1b69: -890148158
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: -958961507, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  - {fileID: 1319367056, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  - {fileID: 1827047936, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  - {fileID: -142133064, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  - {fileID: -1411774412, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  - {fileID: -1865957910, guid: 6fa67a97a4d07fe489a4df840954e553, type: 3}
+  - {fileID: 1831941693, guid: 6fa67a97a4d07fe489a4df840954e553, type: 3}
+  - {fileID: 620357881, guid: 6fa67a97a4d07fe489a4df840954e553, type: 3}
+  - {fileID: -186739978, guid: 6fa67a97a4d07fe489a4df840954e553, type: 3}
+  - {fileID: 60021223, guid: 6fa67a97a4d07fe489a4df840954e553, type: 3}
   - {fileID: -762311695, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   - {fileID: -2145294881, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   - {fileID: -1019068024, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
@@ -231,6 +253,16 @@ SpriteAtlas:
   - {fileID: -904001968, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   - {fileID: -890148158, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   m_PackedSpriteNamesToIndex:
+  - SnowyMountains_0
+  - SnowyMountains_1
+  - SnowyMountains_2
+  - SnowyMountains_3
+  - SnowyMountains_4
+  - AutumnForest_3
+  - AutumnForest_2
+  - AutumnForest_1
+  - AutumnForest_0
+  - AutumnForest_4
   - TileSpikes
   - Stone2
   - Stone3
