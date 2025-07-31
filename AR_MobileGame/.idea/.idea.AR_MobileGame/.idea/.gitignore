@@ -2,9 +2,9 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
+/modules.xml
 /projectSettingsUpdater.xml
 /contentModel.xml
-/modules.xml
 /.idea.AR_MobileGame.iml
 # Editor-based HTTP Client requests
 /httpRequests/
