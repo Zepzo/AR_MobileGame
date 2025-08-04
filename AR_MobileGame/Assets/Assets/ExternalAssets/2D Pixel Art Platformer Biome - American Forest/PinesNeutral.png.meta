@@ -113,12 +113,12 @@ TextureImporter:
       name: PinesNeutral_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 341
+        x: 0
+        y: 368
         width: 256
-        height: 156
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: PinesNeutral_1
       rect:
         serializedVersion: 2
-        x: 332
-        y: 329
-        width: 76
-        height: 126
+        x: 256
+        y: 368
+        width: 256
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: PinesNeutral_2
       rect:
         serializedVersion: 2
-        x: 576
-        y: 349
-        width: 106
-        height: 142
+        x: 512
+        y: 368
+        width: 256
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: PinesNeutral_3
       rect:
         serializedVersion: 2
-        x: 847
-        y: 357
-        width: 68
-        height: 104
+        x: 768
+        y: 368
+        width: 256
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: PinesNeutral_4
       rect:
         serializedVersion: 2
-        x: 1109
-        y: 357
-        width: 51
-        height: 103
+        x: 1024
+        y: 368
+        width: 256
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

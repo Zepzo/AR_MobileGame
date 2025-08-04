@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ade0ae15deb0904d9737fef9290a745, type: 3}
+  m_Name: BiomeA
+  m_EditorClassIdentifier: 
+  SkySprite: {fileID: 353458598, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
+  SkyColor: {r: 0.5064934, g: 0.7779719, b: 0.8415094, a: 1}
+  CloudSprite: {fileID: -310611396, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
+  CloudColor: {r: 0.8078432, g: 0.8980393, b: 0.8980393, a: 1}
+  MountainSprite: {fileID: -976128087, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
+  MountainColor: {r: 0.29803923, g: 0.48627454, b: 0.34901962, a: 1}
+  VegetationSpriteA: {fileID: 975113176, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
+  VegetationAColor: {r: 0.25490198, g: 0.38823533, b: 0.3529412, a: 1}
+  VegetationSpriteB: {fileID: 76452102, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
+  VegetationBColor: {r: 0.21176472, g: 0.3254902, b: 0.31764707, a: 1}
+  GroundSprite: {fileID: 0}
+  GroundColor: {r: 0, g: 0, b: 0, a: 0}

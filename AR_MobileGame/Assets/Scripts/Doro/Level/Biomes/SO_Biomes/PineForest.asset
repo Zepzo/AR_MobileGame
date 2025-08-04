@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: PineForest
   m_EditorClassIdentifier: 
   SkySprite: {fileID: -44259460, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
+  SkyColor: {r: 1, g: 1, b: 1, a: 1}
   CloudSprite: {fileID: -1042382002, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
+  CloudColor: {r: 1, g: 1, b: 1, a: 1}
   MountainSprite: {fileID: 1096680104, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
+  MountainColor: {r: 1, g: 1, b: 1, a: 1}
   VegetationSpriteA: {fileID: 899480125, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
+  VegetationAColor: {r: 1, g: 1, b: 1, a: 1}
   VegetationSpriteB: {fileID: -1306090582, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
+  VegetationBColor: {r: 1, g: 1, b: 1, a: 1}
   GroundSprite: {fileID: 0}
+  GroundColor: {r: 1, g: 1, b: 1, a: 1}
