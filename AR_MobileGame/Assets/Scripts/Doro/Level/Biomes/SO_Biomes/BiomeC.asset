@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: BiomeC
   m_EditorClassIdentifier: 
   SkySprite: {fileID: 353458598, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
-  SkyColor: {r: 0.27949652, g: 0.16860797, b: 0.4490565, a: 1}
+  SkyColor: {r: 0.16862749, g: 0.18262415, b: 0.4509804, a: 1}
   CloudSprite: {fileID: -310611396, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
-  CloudColor: {r: 0.6932058, g: 0.44571728, b: 0.87169814, a: 1}
+  CloudColor: {r: 0.44705883, g: 0.45870605, b: 0.87058824, a: 1}
   MountainSprite: {fileID: -976128087, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
-  MountainColor: {r: 0.335849, g: 0.1818654, b: 0.32263327, a: 1}
+  MountainColor: {r: 0.19347358, g: 0.18039216, b: 0.3372549, a: 1}
   VegetationSpriteA: {fileID: 975113176, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
-  VegetationAColor: {r: 0.18490559, g: 0.02616586, b: 0.1525697, a: 1}
+  VegetationAColor: {r: 0.08765498, g: 0.027450977, b: 0.18431373, a: 1}
   VegetationSpriteB: {fileID: 76452102, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
-  VegetationBColor: {r: 0.081699535, g: 0.033129215, b: 0.17735851, a: 1}
+  VegetationBColor: {r: 0.14550695, g: 0.07426839, b: 0.23018861, a: 1}
   GroundSprite: {fileID: 0}
   GroundColor: {r: 0, g: 0, b: 0, a: 0}

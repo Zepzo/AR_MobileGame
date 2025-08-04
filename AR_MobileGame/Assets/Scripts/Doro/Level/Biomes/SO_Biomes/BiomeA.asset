@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BiomeA
   m_EditorClassIdentifier: 
   SkySprite: {fileID: 353458598, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
-  SkyColor: {r: 0.44705886, g: 0.6313726, b: 0.6745098, a: 1}
+  SkyColor: {r: 0.5064934, g: 0.7779719, b: 0.8415094, a: 1}
   CloudSprite: {fileID: -310611396, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
   CloudColor: {r: 0.8078432, g: 0.8980393, b: 0.8980393, a: 1}
   MountainSprite: {fileID: -976128087, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
