@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
-[CreateAssetMenu(menuName = "Parallax/Biome Palette")]
+[CreateAssetMenu(menuName = "Level/Biome Palette")]
 public class SO_BiomePalette : ScriptableObject
 {
     public Sprite SkySprite;
