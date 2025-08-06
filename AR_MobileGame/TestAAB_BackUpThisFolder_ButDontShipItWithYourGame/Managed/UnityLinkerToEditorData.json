@@ -2,37 +2,28 @@
   "report": {
     "modules": [
       {
-        "name": "AI",
-        "dependencies": [
-          {
-            "name": "NavMeshAgent",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "NavMeshProjectSettings",
-            "scenes": [],
-            "dependencyType": 1,
-            "icon": null
-          },
-          {
-            "name": "NavMeshSettings",
-            "scenes": [
-              "Assets/Scenes/SampleScene.unity"
-            ],
-            "dependencyType": 1,
-            "icon": null
-          }
-        ]
-      },
-      {
         "name": "AndroidJNI",
         "dependencies": []
       },
       {
         "name": "Animation",
         "dependencies": [
+          {
+            "name": "Animation",
+            "scenes": [
+              "Assets/Scenes/Doro/WalkingScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AnimationClip",
+            "scenes": [
+              "Assets/Scenes/Doro/WalkingScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
           {
             "name": "Animator",
             "scenes": [],
@@ -52,6 +43,12 @@
             "icon": null
           },
           {
+            "name": "Motion",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
             "name": "RuntimeAnimatorController",
             "scenes": [],
             "dependencyType": 1,
@@ -65,7 +62,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -79,7 +76,7 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -116,7 +113,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -154,7 +151,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -168,7 +165,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -194,7 +191,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -220,7 +217,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -234,7 +231,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -260,7 +257,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -274,7 +271,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -282,7 +279,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -313,7 +310,9 @@
           },
           {
             "name": "RectTransform",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Doro/WalkingScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -326,7 +325,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -339,8 +338,10 @@
           },
           {
             "name": "Renderer",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/Doro/WalkingScene.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -358,7 +359,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -377,19 +378,25 @@
           },
           {
             "name": "Sprite",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Doro/WalkingScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "SpriteAtlas",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Doro/WalkingScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Doro/WalkingScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -408,7 +415,7 @@
           {
             "name": "Texture",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -416,7 +423,7 @@
           {
             "name": "Texture2D",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -441,17 +448,9 @@
           },
           {
             "name": "Transform",
-            "scenes": [
-              "Assets/Scenes/SampleScene.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Required by AI Module",
             "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.ai"
+            "dependencyType": 1,
+            "icon": null
           },
           {
             "name": "Required by AndroidJNI Module",
@@ -490,34 +489,10 @@
             "icon": "package/com.unity.modules.jsonserialize"
           },
           {
-            "name": "Required by ParticleSystem Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.particlesystem"
-          },
-          {
-            "name": "Required by Physics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.physics"
-          },
-          {
-            "name": "Required by Physics2D Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.physics2d"
-          },
-          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
-          },
-          {
-            "name": "Required by Subsystems Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.subsystems"
           },
           {
             "name": "Required by TextCoreFontEngine Module",
@@ -589,85 +564,10 @@
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
           },
           {
-            "name": "Required by Subsystems Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.subsystems"
-          },
-          {
             "name": "Required by UIElements Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
-          }
-        ]
-      },
-      {
-        "name": "ParticleSystem",
-        "dependencies": [
-          {
-            "name": "ParticleSystem",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "ParticleSystemRenderer",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          }
-        ]
-      },
-      {
-        "name": "Physics",
-        "dependencies": [
-          {
-            "name": "CharacterController",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Collider",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "PhysicsManager",
-            "scenes": [],
-            "dependencyType": 1,
-            "icon": null
-          }
-        ]
-      },
-      {
-        "name": "Physics2D",
-        "dependencies": [
-          {
-            "name": "Collider2D",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Joint2D",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Physics2DSettings",
-            "scenes": [],
-            "dependencyType": 1,
-            "icon": null
-          },
-          {
-            "name": "Rigidbody2D",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
           }
         ]
       },
@@ -685,12 +585,6 @@
       {
         "name": "SharedInternals",
         "dependencies": [
-          {
-            "name": "Required by AI Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.ai"
-          },
           {
             "name": "Required by AndroidJNI Module",
             "scenes": [],
@@ -734,34 +628,10 @@
             "icon": "package/com.unity.modules.jsonserialize"
           },
           {
-            "name": "Required by ParticleSystem Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.particlesystem"
-          },
-          {
-            "name": "Required by Physics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.physics"
-          },
-          {
-            "name": "Required by Physics2D Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.physics2d"
-          },
-          {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
-          },
-          {
-            "name": "Required by Subsystems Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.subsystems"
           },
           {
             "name": "Required by TextCoreFontEngine Module",
@@ -794,10 +664,6 @@
             "icon": "package/com.unity.modules.uielements"
           }
         ]
-      },
-      {
-        "name": "Subsystems",
-        "dependencies": []
       },
       {
         "name": "TextCoreFontEngine",
@@ -839,7 +705,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Doro/WalkingScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -881,7 +747,9 @@
         "dependencies": [
           {
             "name": "Canvas",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Doro/WalkingScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -893,7 +761,9 @@
           },
           {
             "name": "CanvasRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Doro/WalkingScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

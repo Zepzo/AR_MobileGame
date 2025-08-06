@@ -5838,7 +5838,7 @@ IL_004a:
 		MethodInfo_t* L_14 = ___1_methodInfo;
 		NullCheck(L_14);
 		bool L_15;
-		L_15 = VirtualFuncInvoker0< bool >::Invoke(26, L_14);
+		L_15 = VirtualFuncInvoker0< bool >::Invoke(24, L_14);
 		if (!L_15)
 		{
 			goto IL_0063;
@@ -16902,7 +16902,7 @@ IL_007e:
 		int32_t L_31 = V_4;
 		NullCheck(L_28);
 		String_t* L_32;
-		L_32 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_28, L_29, L_30, L_31);
+		L_32 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_28, L_29, L_30, L_31);
 		NullCheck(L_27);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_27, L_32, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		int32_t L_33 = V_2;
