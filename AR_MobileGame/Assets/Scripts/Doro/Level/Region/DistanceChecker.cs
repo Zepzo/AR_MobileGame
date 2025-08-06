@@ -28,6 +28,8 @@ public class DistanceChecker : MonoBehaviour
         }
     }
 
+    //get steps from step counter-> transfer to current steps
+    
     public void ResetSteps()
     {
         CurrentSteps = 0;

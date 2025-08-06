@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StepDisplay : MonoBehaviour
 {
-    private AndroidStepCounter stepCounter;
+    public AndroidStepCounter stepCounter;
     public TMPro.TextMeshProUGUI stepText;
 
     void Start()
