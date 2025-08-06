@@ -33,7 +33,7 @@ public class AndroidStepCounter : MonoBehaviour
                 AndroidJavaObject activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
 
                 // Replace with your actual Java plugin package/class name
-                AndroidJavaClass pluginClass = new AndroidJavaClass("com.DefaultCompany.ARGame.StepCounterPlugin");
+                AndroidJavaClass pluginClass = new AndroidJavaClass("com.ForsbergsAR.Wanderlust.StepCounterPlugin");
 
                 pluginInstance = pluginClass.CallStatic<AndroidJavaObject>("getInstance");
                 pluginInstance.Call("start", activity);

@@ -1,20 +1,49 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.Android;
 
 public class StepDisplay : MonoBehaviour
 {
-    public AndroidStepCounter stepCounter;
-    public TMPro.TextMeshProUGUI stepText;
+    private AndroidStepCounter stepCounter;
+    public TextMeshProUGUI stepText;
 
-    void Start()
+    private bool isPermissionGranted = false;
+    const string ACTIVITY_RECOGNITION = "android.permission.ACTIVITY_RECOGNITION";
+
+    IEnumerator Start()
     {
-        stepCounter = gameObject.AddComponent<AndroidStepCounter>();
+        if (!Permission.HasUserAuthorizedPermission(ACTIVITY_RECOGNITION))
+        {
+            Permission.RequestUserPermission(ACTIVITY_RECOGNITION);
+            yield return new WaitUntil(() =>
+                Permission.HasUserAuthorizedPermission(ACTIVITY_RECOGNITION)
+                || PlayerPrefs.GetInt("PermissionDeniedOnce", 0) == 1
+            );
+        }
+
+        if (Permission.HasUserAuthorizedPermission(ACTIVITY_RECOGNITION))
+        {
+            isPermissionGranted = true;
+            stepCounter = gameObject.AddComponent<AndroidStepCounter>();
+        }
+        else
+        {
+            PlayerPrefs.SetInt("PermissionDeniedOnce", 1);
+            Debug.LogWarning("Activity Recognition permission not granted.");
+        }
     }
+
 
     void Update()
     {
-        stepText.text = $"Steps: {stepCounter.GetStepCount()}";
+        if (isPermissionGranted && stepCounter != null)
+        {
+            stepText.text = $"{stepCounter.GetStepCount()}";
+        }
+        else
+        {
+            stepText.text = "Permission not granted";
+        }
     }
 }
-

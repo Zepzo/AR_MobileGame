@@ -5,10 +5,8 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
-    path: Assets/Scenes/Doro/WalkingScene.unity
-    guid: 48dc7857b90eafe40bb660f79858746a
+    path: Assets/Scenes/Doro/WalkingScene - Test.unity
+    guid: 56c000cae825e5840a4532b0b2762af8
+
   m_configObjects: {}
