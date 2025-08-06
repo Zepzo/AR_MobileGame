@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0ded33a78396a747b165b1bc0c26ab4
+guid: 7f645e024eb528749b5061a4d3b58a7b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -122,18 +122,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: 32x32_Horse
+  - name: 32x32_Cart
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.58181816, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 32
-      height: 29
-    spriteID: 1266a2848ca85ba4ea4bbb6a690eafe6
+      width: 55
+      height: 14
+    spriteID: 75c4b50f44d3d8d44b5568de8e14b42d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,25 +146,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 176811110
+      value0: 317659443
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: 32x32_Horse
+    name: 32x32_Cart
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: 32x32_Horse
+    - name: 32x32_Cart
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 32
-        height: 29
-      spriteId: 1266a2848ca85ba4ea4bbb6a690eafe6
+        width: 55
+        height: 14
+      spriteId: 75c4b50f44d3d8d44b5568de8e14b42d
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -183,5 +183,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 64, y: 64}
+  canvasSize: {x: 55, y: 14}
+  previousTextureSize: {x: 64, y: 32}
