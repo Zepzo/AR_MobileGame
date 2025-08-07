@@ -9,3 +9,4 @@ EditorBuildSettings:
     path: Assets/Scenes/Doro/WalkingScene.unity
     guid: 48dc7857b90eafe40bb660f79858746a
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
