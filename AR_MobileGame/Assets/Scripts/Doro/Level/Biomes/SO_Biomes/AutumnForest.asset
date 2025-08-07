@@ -22,5 +22,15 @@ MonoBehaviour:
   VegetationAColor: {r: 1, g: 1, b: 1, a: 1}
   VegetationSpriteB: {fileID: -186739978, guid: 6fa67a97a4d07fe489a4df840954e553, type: 3}
   VegetationBColor: {r: 0.645283, g: 0.35789827, b: 0.30559623, a: 1}
-  GroundSprite: {fileID: 0}
-  GroundColor: {r: 1, g: 1, b: 1, a: 1}
+  GroundSprite: {fileID: 205861570, guid: 770dbbdfda7b314479f94b1df1858408, type: 3}
+  GroundColor: {r: 1, g: 0.65882355, b: 0.48235294, a: 1}
+  FrontSpriteA: {fileID: 6606602235175869536, guid: 3bce28e17085ad541a6239fd3881792e, type: 3}
+  FrontColorA: {r: 0.8113208, g: 0.54909277, b: 0.2985047, a: 1}
+  FrontSpriteB: {fileID: -198907263, guid: 1e0556274aa45544a86d3e11af393cd0, type: 3}
+  FrontColorB: {r: 0.8117647, g: 0.64120054, b: 0.30196083, a: 1}
+  FrontSpriteC: {fileID: 92881459, guid: 1e0556274aa45544a86d3e11af393cd0, type: 3}
+  FrontColorC: {r: 0.9169811, g: 0.75542957, b: 0.4135066, a: 1}
+  FrontSpriteD: {fileID: 942769082, guid: 1e0556274aa45544a86d3e11af393cd0, type: 3}
+  FrontColorD: {r: 0.5999999, g: 0.4069483, b: 0.20264143, a: 1}
+  FrontSpriteE: {fileID: 2000635523, guid: 1e0556274aa45544a86d3e11af393cd0, type: 3}
+  FrontColorE: {r: 0.7056604, g: 0.5304403, b: 0.33951584, a: 1}
