@@ -22,8 +22,6 @@ public class AuthManager : MonoBehaviour
 
         loginButton.onClick.AddListener(() => HandleAuth(isLogin: true));
         registerButton.onClick.AddListener(() => HandleAuth(isLogin: false));
-
-        SetButtonsInteractable(false);
     }
 
     private async void InitializeFirebase()
@@ -33,7 +31,6 @@ public class AuthManager : MonoBehaviour
         {
             auth = FirebaseAuth.DefaultInstance;
             statusText.text = "Firebase is ready.";
-            SetButtonsInteractable(true);
         }
         else
         {
@@ -58,7 +55,6 @@ public class AuthManager : MonoBehaviour
                 var result = await auth.SignInWithEmailAndPasswordAsync(email, password);
                 user = result.User;
 
-                // Check if email is verified
                 if (!user.IsEmailVerified)
                 {
                     statusText.text = "Please verify your email before logging in.\nA new verification email has been sent.";
@@ -110,11 +106,5 @@ public class AuthManager : MonoBehaviour
         }
 
         return true;
-    }
-
-    private void SetButtonsInteractable(bool isEnabled)
-    {
-        loginButton.interactable = isEnabled;
-        registerButton.interactable = isEnabled;
     }
 }
