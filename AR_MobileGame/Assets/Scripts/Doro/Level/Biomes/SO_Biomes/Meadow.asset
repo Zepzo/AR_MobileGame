@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ade0ae15deb0904d9737fef9290a745, type: 3}
-  m_Name: SnowyMountains
+  m_Name: Meadow
   m_EditorClassIdentifier: 
-  SkySprite: {fileID: -1411774412, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  SkySprite: {fileID: -1595589357, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   SkyColor: {r: 1, g: 1, b: 1, a: 1}
-  CloudSprite: {fileID: -142133064, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  CloudSprite: {fileID: 75891084, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   CloudColor: {r: 1, g: 1, b: 1, a: 1}
-  MountainSprite: {fileID: 1827047936, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  MountainSprite: {fileID: -1030166557, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   MountainColor: {r: 1, g: 1, b: 1, a: 1}
-  VegetationSpriteA: {fileID: 1319367056, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  VegetationSpriteA: {fileID: -483385287, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   VegetationAColor: {r: 1, g: 1, b: 1, a: 1}
-  VegetationSpriteB: {fileID: -958961507, guid: 9c63514163eedfb49857af691644c42b, type: 3}
+  VegetationSpriteB: {fileID: 1487765377, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   VegetationBColor: {r: 1, g: 1, b: 1, a: 1}
   GroundSprite: {fileID: -57203989, guid: 770dbbdfda7b314479f94b1df1858408, type: 3}
   GroundColor: {r: 0.5018867, g: 0.41192588, b: 0.41192588, a: 1}

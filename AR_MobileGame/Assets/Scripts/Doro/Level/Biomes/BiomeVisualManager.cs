@@ -50,7 +50,7 @@ public class BiomeVisualManager : MonoBehaviour
         ParallaxManager.Layers[7].SetColor(biome.FrontColorB);
         ParallaxManager.Layers[8].SetColor(biome.FrontColorC);
         ParallaxManager.Layers[9].SetColor(biome.FrontColorD);
-        ParallaxManager.Layers[5].SetColor(biome.FrontColorE);
+        ParallaxManager.Layers[10].SetColor(biome.FrontColorE);
     }
     
     public void TransitionBiomeColorsBG(SO_BiomePalette biome, float transitionTime)
@@ -70,7 +70,7 @@ public class BiomeVisualManager : MonoBehaviour
         ParallaxManager.Layers[7].SetColor(biome.FrontColorB);
         ParallaxManager.Layers[8].SetColor(biome.FrontColorC);
         ParallaxManager.Layers[9].SetColor(biome.FrontColorD);
-        ParallaxManager.Layers[5].SetColor(biome.FrontColorE);
+        ParallaxManager.Layers[10].SetColor(biome.FrontColorE);
     }
 }
 //other methods that spawn the vegetation props

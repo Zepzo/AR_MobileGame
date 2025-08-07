@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RegionName: Forest
   RegionID: 0
-  RegionBiome: {fileID: 11400000, guid: 6109bf5ce6b6f334eaf22a8c811f2d95, type: 2}
+  RegionBiome: {fileID: 11400000, guid: 29da6298885856c45a121553dbee5c42, type: 2}
   RequiredSteps: 10

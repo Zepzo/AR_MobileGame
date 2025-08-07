@@ -30,7 +30,7 @@ MonoBehaviour:
   FrontColorB: {r: 0.30980393, g: 0.6901961, b: 0.41960788, a: 1}
   FrontSpriteC: {fileID: 92881459, guid: 1e0556274aa45544a86d3e11af393cd0, type: 3}
   FrontColorC: {r: 0.28627452, g: 0.8117648, b: 0.43921572, a: 1}
-  FrontSpriteD: {fileID: 942769082, guid: 1e0556274aa45544a86d3e11af393cd0, type: 3}
-  FrontColorD: {r: 0.33333334, g: 0.5137255, b: 0.5529412, a: 1}
-  FrontSpriteE: {fileID: 2000635523, guid: 1e0556274aa45544a86d3e11af393cd0, type: 3}
-  FrontColorE: {r: 0.44705886, g: 0.6313726, b: 0.6745098, a: 1}
+  FrontSpriteD: {fileID: 5062028797298513138, guid: 44f25a7aa65f3154586080fae60b9849, type: 3}
+  FrontColorD: {r: 0.10592378, g: 0.645283, b: 0.44416094, a: 1}
+  FrontSpriteE: {fileID: -1748301654, guid: 44f25a7aa65f3154586080fae60b9849, type: 3}
+  FrontColorE: {r: 0.029825535, g: 0.2679245, b: 0.18321623, a: 1}
