@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555564674693",
+    "project_id": "wanderlust-7aad9",
+    "storage_bucket": "wanderlust-7aad9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555564674693:android:305bb4999e4478ac2103ec",
+        "android_client_info": {
+          "package_name": "com.ForsbergsAR.Wanderlust"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXOKzGMQD4slKjlFYZfMHwE_8xKATcB4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
