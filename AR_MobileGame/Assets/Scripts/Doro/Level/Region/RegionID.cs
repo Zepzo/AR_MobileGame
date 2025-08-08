@@ -11,5 +11,6 @@ public enum RegionID
     Fields,
     Swamp,
     Caverns,
-    SpookyForest
+    SpookyForest,
+    Flowers
 }
