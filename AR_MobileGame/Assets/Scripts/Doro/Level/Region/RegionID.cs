@@ -9,5 +9,7 @@ public enum RegionID
     Night,
     Autumn,
     Fields,
-    Swamp
+    Swamp,
+    Caverns,
+    SpookyForest
 }
