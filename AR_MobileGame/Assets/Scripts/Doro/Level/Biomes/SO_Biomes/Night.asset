@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ade0ae15deb0904d9737fef9290a745, type: 3}
-  m_Name: BiomeC
+  m_Name: Night
   m_EditorClassIdentifier: 
   SkySprite: {fileID: 21300000, guid: 3c522dfe25a7896468abb57f4bf0f186, type: 3}
   SkyColor: {r: 1, g: 1, b: 1, a: 1}

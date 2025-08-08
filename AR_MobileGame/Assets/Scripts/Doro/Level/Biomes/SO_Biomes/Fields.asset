@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ade0ae15deb0904d9737fef9290a745, type: 3}
-  m_Name: BiomeB
+  m_Name: Fields
   m_EditorClassIdentifier: 
   SkySprite: {fileID: 353458598, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
   SkyColor: {r: 0.82641506, g: 0.3425682, b: 0.20426483, a: 1}
   CloudSprite: {fileID: -310611396, guid: 05f527dfe4273df4588a0cb7fedc6e4e, type: 3}
   CloudColor: {r: 0.90188676, g: 0.7205826, b: 0.50199354, a: 1}
-  MountainSprite: {fileID: -561770805, guid: 44f25a7aa65f3154586080fae60b9849, type: 3}
+  MountainSprite: {fileID: 105581635, guid: 01c94912964b83749a251ff365ed2382, type: 3}
   MountainColor: {r: 0.8037735, g: 0.52567506, b: 0.09554285, a: 1}
-  VegetationSpriteA: {fileID: -1708075182, guid: 44f25a7aa65f3154586080fae60b9849, type: 3}
+  VegetationSpriteA: {fileID: 1838557072, guid: 01c94912964b83749a251ff365ed2382, type: 3}
   VegetationAColor: {r: 0.93207544, g: 0.7430256, b: 0.05451757, a: 1}
-  VegetationSpriteB: {fileID: -1474614470, guid: 44f25a7aa65f3154586080fae60b9849, type: 3}
+  VegetationSpriteB: {fileID: 345373037, guid: 01c94912964b83749a251ff365ed2382, type: 3}
   VegetationBColor: {r: 0.6075471, g: 0.49256238, b: 0.053876787, a: 1}
   GroundSprite: {fileID: 82104074, guid: 770dbbdfda7b314479f94b1df1858408, type: 3}
   GroundColor: {r: 0.5999999, g: 0.28415084, b: 0.28415084, a: 1}
@@ -30,7 +30,7 @@ MonoBehaviour:
   FrontColorB: {r: 0.86415094, g: 0.53128725, b: 0.20054817, a: 1}
   FrontSpriteC: {fileID: 92881459, guid: 1e0556274aa45544a86d3e11af393cd0, type: 3}
   FrontColorC: {r: 0.9547169, g: 0.67811805, b: 0.45213944, a: 1}
-  FrontSpriteD: {fileID: -561770805, guid: 44f25a7aa65f3154586080fae60b9849, type: 3}
+  FrontSpriteD: {fileID: -6861090749264251248, guid: 01c94912964b83749a251ff365ed2382, type: 3}
   FrontColorD: {r: 1, g: 0.8176321, b: 0.3075471, a: 1}
-  FrontSpriteE: {fileID: -1708075182, guid: 44f25a7aa65f3154586080fae60b9849, type: 3}
+  FrontSpriteE: {fileID: 4294624527356580527, guid: 01c94912964b83749a251ff365ed2382, type: 3}
   FrontColorE: {r: 0.690566, g: 0.51832837, b: 0.12378062, a: 1}

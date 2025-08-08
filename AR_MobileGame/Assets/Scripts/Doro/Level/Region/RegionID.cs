@@ -7,5 +7,7 @@ public enum RegionID
     Forest,
     Mountains,
     Night,
-    Autumn
+    Autumn,
+    Fields,
+    Swamp
 }

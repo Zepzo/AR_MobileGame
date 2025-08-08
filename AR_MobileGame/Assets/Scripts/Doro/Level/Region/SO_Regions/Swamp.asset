@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1148bad8bae0ad449635ee93d4c3679, type: 3}
   m_Name: Swamp
   m_EditorClassIdentifier: 
-  RegionName: Forest
-  RegionID: 0
+  RegionName: Swamp
+  RegionID: 5
   RegionBiome: {fileID: 11400000, guid: 94228d6a19b8a7249ade4266ee707cc6, type: 2}
   RequiredSteps: 10
